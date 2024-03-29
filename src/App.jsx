@@ -1,5 +1,6 @@
 import './index.css'
 import Header from './Components/Header'
+import Hero from './Components/Hero'
 
 function App() {
   
@@ -8,7 +9,11 @@ function App() {
     <>
       <div className='custom-font'>
       
-        <Header/>
+        <div className='bg-gray-100 pb-5'>
+           <Header />
+        <Hero />
+        </div>
+       
       </div>
       
     </>
