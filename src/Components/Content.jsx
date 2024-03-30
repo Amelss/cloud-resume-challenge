@@ -1,6 +1,7 @@
 
 import About from "./About"
 import Experience from "./Experience"
+import Projects from "./Projects"
 
 
 export default function Content() {
@@ -12,6 +13,9 @@ export default function Content() {
           
           <div className="bg-gray-100 py-10">
              <Experience />  
+          </div>
+          <div>
+              <Projects />
           </div>
          
      
