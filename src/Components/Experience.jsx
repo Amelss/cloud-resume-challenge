@@ -2,10 +2,59 @@
 
 export default function Experience() {
   return (
-      <div id='experience'>
+      <div id='experience' className="">
           
-          <h1 className='text-3xl text-center'>Experience</h1>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, ex ipsum consectetur distinctio explicabo dolor natus sequi cupiditate? Assumenda incidunt omnis explicabo ducimus aperiam velit reprehenderit repudiandae. Laborum consequatur cum distinctio a explicabo reiciendis voluptas aspernatur totam ratione animi esse ex hic quidem sapiente rerum, id alias repellat, iure eveniet excepturi officiis cumque. Commodi cumque, ab dignissimos quam, amet dicta placeat impedit, ipsa veniam aliquam voluptatum! Laboriosam illum, odit dolore error expedita impedit quibusdam tenetur facere quasi debitis architecto nihil deleniti eligendi asperiores recusandae explicabo veritatis sequi libero saepe? Molestiae culpa incidunt, accusantium quo neque, provident similique quis saepe ad assumenda distinctio deserunt placeat nisi qui facilis. Harum sint eaque ducimus libero itaque corporis voluptatum fugiat at? Porro optio, dolorem dignissimos dolor odit delectus tempore. Quod eos aspernatur magni consequuntur nesciunt adipisci quisquam laudantium omnis libero temporibus nulla, inventore exercitationem eveniet quis repellendus nisi totam vero repudiandae autem. Provident odit libero qui labore dicta tenetur molestias voluptatibus accusantium totam repellendus debitis facere et perspiciatis aliquam laborum rerum, ipsa iusto voluptas accusamus autem eius facilis. Ut cupiditate deleniti alias libero quidem quis pariatur vero, ab esse, nihil, dolorum facere cumque a! Possimus aperiam nostrum est quia. Suscipit et magnam inventore voluptatem vitae quae iste deleniti in, soluta voluptates culpa similique. Et, quasi soluta distinctio aliquam blanditiis esse maxime tempore voluptate voluptatibus cumque cupiditate ratione, eum magnam quisquam fuga. Est nisi velit libero magnam, assumenda veritatis vero quos, fuga sequi a unde dicta incidunt? Magni, illum reiciendis! Esse voluptate labore sequi illum qui dolores exercitationem odit, ad modi earum facere saepe maiores veritatis, recusandae iste aliquid? Voluptates dolor error doloribus id facere mollitia asperiores eius sequi velit expedita, veniam quod voluptatibus animi fuga explicabo commodi. Dolorum, ad non excepturi aperiam voluptatum sed eaque similique impedit ex quisquam minima nobis placeat in voluptate saepe quae quibusdam quos. Reprehenderit error veritatis nostrum odio ipsum debitis distinctio hic ipsa, dolorum optio vel at exercitationem voluptatum dicta natus dolores! Rem, ad. Ipsa, iste quos? Voluptatibus nulla nisi hic nemo qui architecto minus adipisci fugit iure deserunt impedit, assumenda magni pariatur obcaecati id. Quas ipsam quae sunt dicta. Itaque veniam modi unde, incidunt, debitis rem rerum autem perferendis, dolores at quos non ratione pariatur distinctio ipsa quo alias? Corporis eveniet molestiae alias officiis vero tenetur eius laudantium asperiores recusandae nisi! Facere quibusdam eaque excepturi sint enim fugit, praesentium repellendus itaque, natus ad, facilis reiciendis dignissimos sequi! Soluta eum sapiente eveniet repudiandae ducimus magnam tenetur alias voluptas quis dolore ad nam debitis ex omnis deleniti, architecto aut officiis accusamus maxime ab dolores assumenda reprehenderit, impedit odit! Sunt sequi, aliquid facere aut magni accusamus cumque facilis ea possimus consequatur vel illo maiores, eum dicta ipsam! Libero ratione dolor fuga.</p> 
+          <h1 className='text-center text-3xl font-bold text-blue-300 mb-5 pt-4 xl:text-4xl'>Experience</h1>
+
+          <hr className="line xl:hidden"/>
+
+          <div className="grid grid-cols-1 xl:grid-cols-2 xl:divide-y-2 xl:w-[1200px] xl:mx-auto">
+              <div>
+                  <hr className="hidden line xl:block"/>
+                  <h4 className="work-header">Revlifter</h4>
+              </div>
+              <div className="px-10 xl:px-0">
+                   <p className="work-date">April 2023 - Present</p>
+                  <ul className="list-outside list-disc my-list pb-10">
+                      <li className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, aperiam voluptates.</li>
+                      <li>Quisquam ratione molestiae, quas, reprehenderit soluta placeat tempore obcaecati delectus</li>
+                      <li>iste sint perferendis non exercitationem eum aliquid ipsa nesciunt ad</li>
+                      <li>incidunt dicta velit magni. Repellat distinctio esse temporibus minima nemo cumque hic quaerat nam?</li>
+                  </ul>
+                 
+              </div>
+       <hr className="line xl:hidden"/>
+              <div>
+                  <h4 className="work-header">Hunter Boots</h4>
+              </div>
+              <div className="px-10 xl:px-0">
+                   <p className="work-date">May 2022 - April 2023</p>
+                  <ul className="list-outside list-disc my-list pb-10">
+                      <li className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, aperiam voluptates.</li>
+                      <li>Quisquam ratione molestiae, quas, reprehenderit soluta placeat tempore obcaecati delectus</li>
+                      <li>iste sint perferendis non exercitationem eum aliquid ipsa nesciunt ad</li>
+                      <li>incidunt dicta velit magni. Repellat distinctio esse temporibus minima nemo cumque hic quaerat nam?</li>
+                  </ul>
+                 
+              </div>
+
+                 <hr className="line xl:hidden"/>
+              <div>
+                  <h4 className="work-header">Citizens Advice</h4>
+              </div>
+              <div className="px-10 xl:px-0">
+                   <p className="work-date">October 2019 - October 2021</p>
+                  <ul className="list-outside list-disc my-list pb-10">
+                      <li className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, aperiam voluptates.</li>
+                      <li>Quisquam ratione molestiae, quas, reprehenderit soluta placeat tempore obcaecati delectus</li>
+                      <li>iste sint perferendis non exercitationem eum aliquid ipsa nesciunt ad</li>
+                      <li>incidunt dicta velit magni. Repellat distinctio esse temporibus minima nemo cumque hic quaerat nam?</li>
+                  </ul>
+                 
+              </div>
+              
+          </div>
+         
     </div>
   )
 }

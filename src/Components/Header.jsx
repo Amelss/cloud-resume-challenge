@@ -1,7 +1,5 @@
 export default function Header() {
 
-
-
      const handleSmoothScroll = (event) => {
        event.preventDefault();
        const targetId = event.target.getAttribute("href").substring(1);
@@ -22,7 +20,7 @@ export default function Header() {
           </h1>
         </div>
         <div className="custom-font">
-          <ul className="list-none flex justify-center">
+          <ul className=" flex justify-center">
             <li className="py-2">
               <a href="#about" className="link" onClick={handleSmoothScroll}>
                 About
@@ -38,12 +36,12 @@ export default function Header() {
               </a>
             </li>
             <li className="py-2">
-              <a href="#" className="link ml-3" onClick={handleSmoothScroll}>
+              <a href="#projects" className="link ml-3" onClick={handleSmoothScroll}>
                 Projects
               </a>
             </li>
             <li className="py-2">
-              <a href="#" className="link ml-3" onClick={handleSmoothScroll}>
+              <a href="#skills" className="link ml-3" onClick={handleSmoothScroll}>
                 Skills
               </a>
             </li>
