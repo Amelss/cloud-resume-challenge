@@ -22,7 +22,7 @@ export default function Header() {
         <div className=" bg-gray-100 h-screen opacity-90">
           <ul className="list-none p-5">
             <li className="py-2">
-              <a href="#" className="link">
+              <a href="/About" className="link">
                 About
               </a>
             </li>
@@ -52,7 +52,7 @@ export default function Header() {
         <div className="custom-font">
           <ul className="list-none flex justify-center">
             <li className="py-2">
-              <a href="#" className="link">
+              <a href="/About" className="link">
                 About
               </a>
             </li>
