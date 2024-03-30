@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div>
+    <div id="about">
           <h1 className="text-center text-2xl font-bold text-blue-300 mb-5 pt-4 xl:text-4xl">Summary</h1>
       <p className="text-center px-3 pb-3 xl:px-10">
         I describe myself as a problem solver who can learn quickly and adapt
