@@ -19,7 +19,10 @@ function App() {
           <Header />
           <Hero />
         </div>
-      <Content />
+        <div className="2xl:bg-gray-100">
+          <Content />
+        </div>
+      
         
       </div>
     </>
