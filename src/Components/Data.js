@@ -24,7 +24,7 @@ export default [
     languages: ["Contentful", "NextJS", "TailwindCSS"],
   },
   {
-    id: 5,
+    id: 4,
     title: "Lorem Ipsum",
     image: "/assets/clouds-image-2.png",
     description: "A Shopify E-Commerce store for a luxury clothing brand.",
@@ -32,7 +32,7 @@ export default [
     languages: ["Contentful", "NextJS", "TailwindCSS"],
   },
   {
-    id: 6,
+    id: 5,
     title: "From Scratch",
     image: "/assets/clouds-image-1.png",
     description: "A charity website.",
@@ -40,7 +40,7 @@ export default [
     languages: ["Contentful", "NextJS", "TailwindCSS"],
   },
   {
-    id: 4,
+    id: 6,
     title: "14 STROKE 16",
     image: "/assets/clouds-image-2.png",
     description: "An online magazine for a creative collective.",
