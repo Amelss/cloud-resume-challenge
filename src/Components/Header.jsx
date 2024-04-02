@@ -40,6 +40,11 @@ export default function Header() {
                 Projects
               </a>
             </li>
+             <li className="py-2">
+              <a href="#education" className="link ml-3" onClick={handleSmoothScroll}>
+                Education
+              </a>
+            </li>
             <li className="py-2">
               <a href="#skills" className="link ml-3" onClick={handleSmoothScroll}>
                 Skills

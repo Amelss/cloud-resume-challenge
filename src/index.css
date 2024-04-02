@@ -19,3 +19,14 @@
   @apply w-80 mx-auto xl:w-full border-t-2
 }
 
+.education-header{
+  @apply text-center text-xl mt-2 pt-2
+}
+
+.education-date{
+   @apply text-center  text-xs my-2
+}
+
+.education-line{
+  @apply w-80 mx-auto xl:max-w-96 border-t-2
+}

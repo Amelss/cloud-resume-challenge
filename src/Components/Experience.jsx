@@ -11,9 +11,10 @@ export default function Experience() {
           <div className="grid grid-cols-1 xl:grid-cols-2 xl:divide-y-2 xl:w-[1200px] xl:mx-auto">
               <div>
                   <hr className="hidden line xl:block"/>
-                  <h4 className="work-header">Revlifter</h4>
+                  <h4 className="work-header">Solutions Specialist</h4>
               </div>
               <div className="px-10 xl:px-0">
+                  <h4 className="work-date font-bold">Revlifter</h4>
                    <p className="work-date">April 2023 - Present</p>
                   <ul className="list-outside list-disc my-list pb-10">
                       <li className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, aperiam voluptates.</li>
@@ -25,9 +26,10 @@ export default function Experience() {
               </div>
        <hr className="line xl:hidden"/>
               <div>
-                  <h4 className="work-header">Hunter Boots</h4>
+                  <h4 className="work-header">eCommerce Content Assistant</h4>
               </div>
               <div className="px-10 xl:px-0">
+                  <h4 className="work-date font-bold">Hunter Boots</h4>
                    <p className="work-date">May 2022 - April 2023</p>
                   <ul className="list-outside list-disc my-list pb-10">
                       <li className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, aperiam voluptates.</li>
@@ -40,9 +42,10 @@ export default function Experience() {
 
                  <hr className="line xl:hidden"/>
               <div>
-                  <h4 className="work-header">Citizens Advice</h4>
+                  <h4 className="work-header">Admin & Web Content Co-Ordinator</h4>
               </div>
               <div className="px-10 xl:px-0">
+                  <h4 className="work-date font-bold">Citizens Advice </h4>
                    <p className="work-date">October 2019 - October 2021</p>
                   <ul className="list-outside list-disc my-list pb-10">
                       <li className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, aperiam voluptates.</li>
