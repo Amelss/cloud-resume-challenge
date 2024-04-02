@@ -16,7 +16,7 @@ export default function Header() {
       <div className="text-center text-sm xl:text-base xl:flex justify-between items-center py-3 px-5">
         <div>
           <h1 className="custom-font text-3xl font-bold text-blue-300">
-            Ameley In The Clouds
+            melo in the cloud
           </h1>
         </div>
         <div className="custom-font">
