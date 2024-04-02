@@ -30,3 +30,7 @@
 .education-line{
   @apply w-80 mx-auto xl:max-w-96 border-t-2
 }
+
+.skills-logo{
+  @apply mx-auto
+}
