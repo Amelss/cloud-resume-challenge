@@ -14,7 +14,7 @@ export default function Skills() {
         <img src="/assets/next-js.svg" alt="nextjs logo" className="w-14 skills-logo" />
         <img src="/assets/contentful.svg" alt="contentful logo" className="w-12 skills-logo" />
         <img src="/assets/shopify.png" alt="shopify logo"className="skills-logo w-14" />
-        <img src="/assets/figma.png" alt="figma logo" className="skills-logo w-14" />
+        <img src="/assets/aws.png" alt="figma logo" className="skills-logo " />
        
       </div>
     </div>
