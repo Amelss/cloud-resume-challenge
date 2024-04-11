@@ -17,10 +17,11 @@ export default function Experience() {
                   <h4 className="work-date font-bold">Revlifter</h4>
                    <p className="work-date">April 2023 - Present</p>
                   <ul className="list-outside list-disc my-list pb-10">
-                      <li className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, aperiam voluptates.</li>
-                      <li>Quisquam ratione molestiae, quas, reprehenderit soluta placeat tempore obcaecati delectus</li>
-                      <li>iste sint perferendis non exercitationem eum aliquid ipsa nesciunt ad</li>
-                      <li>incidunt dicta velit magni. Repellat distinctio esse temporibus minima nemo cumque hic quaerat nam?</li>
+                      <li className="">Creating tailored solutions and implementing complex rules in JavaScript for client specific issues.</li>
+                      <li>Creating and maintaining documentation for user onboarding that is easily understood by non-technical users.</li>
+                      <li>Interacting with client’s APIs to pull in data to create mappings to configure our tool to work on client’s site.</li>
+                      <li>Developing pixel perfect ‘RevPages’ using HTML & CSS in line with the UI provided by the design team.</li>
+                      <li>Supporting the Campaign Services by being a technical liaison between them and the client by providing solutions to client’s technical issues.</li>
                   </ul>
                  
               </div>
@@ -32,10 +33,10 @@ export default function Experience() {
                   <h4 className="work-date font-bold">Hunter Boots</h4>
                    <p className="work-date">May 2022 - April 2023</p>
                   <ul className="list-outside list-disc my-list pb-10">
-                      <li className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, aperiam voluptates.</li>
-                      <li>Quisquam ratione molestiae, quas, reprehenderit soluta placeat tempore obcaecati delectus</li>
-                      <li>iste sint perferendis non exercitationem eum aliquid ipsa nesciunt ad</li>
-                      <li>incidunt dicta velit magni. Repellat distinctio esse temporibus minima nemo cumque hic quaerat nam?</li>
+                      <li className="">Working with various SaaS products including XO and Contentful to effectively merchandise and update the site.</li>
+                      <li>Assisting with reporting on sales, key metrics and promotions involving proactively working with other team functions including content and merchandising teams</li>
+                      <li>Assisting with administration duties for ecommerce photography workflow including product inventories, shoot planning and product activation tracking.</li>
+                      <li>Website content updates across global websites Homepage, landing pages, and Discover brand content sections</li>
                   </ul>
                  
               </div>
@@ -48,10 +49,10 @@ export default function Experience() {
                   <h4 className="work-date font-bold">Citizens Advice </h4>
                    <p className="work-date">October 2019 - October 2021</p>
                   <ul className="list-outside list-disc my-list pb-10">
-                      <li className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, aperiam voluptates.</li>
-                      <li>Quisquam ratione molestiae, quas, reprehenderit soluta placeat tempore obcaecati delectus</li>
-                      <li>iste sint perferendis non exercitationem eum aliquid ipsa nesciunt ad</li>
-                      <li>incidunt dicta velit magni. Repellat distinctio esse temporibus minima nemo cumque hic quaerat nam?</li>
+                      <li className="">Liaising with partner agencies and other stakeholders as appropriate.</li>
+                      <li>Maintaining and updating the WordPress website.</li>
+                      <li>Supporting the Business Development Manager with fundraising events and research.</li>
+                      <li>Responsible for raising awareness of CAB through social media and general promotion of CAB’s work.</li>
                   </ul>
                  
               </div>
