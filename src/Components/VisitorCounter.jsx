@@ -14,8 +14,8 @@ export default function VisitCounter() {
          return response.json();
        })
        .then((data) => {
-         const responseBody = JSON.parse(data.body);
-         setVisitorCount(responseBody.visitorCount);
+         const visitCount = JSON.parse(data.body);
+         setVisitorCount(visitCount);
        })
        .catch((error) => {
          setError(error.message);
@@ -28,7 +28,9 @@ export default function VisitCounter() {
 
    return (
      <div className="text-center">
-       {visitorCount !== null && <p>{visitorCount} Visitors have visited my site!</p>}
+       {visitorCount !== null && (
+         <p>This many visitors {visitorCount} have visited my site!</p>
+       )}
      </div>
    );
 }
