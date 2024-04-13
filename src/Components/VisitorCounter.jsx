@@ -27,9 +27,10 @@ export default function VisitCounter() {
    }
 
    return (
-     <div className="text-center">
+       <div className="bg-white w-56 mx-auto rounded-lg pb-2 shadow-md">
+           <p className="text-center bg-blue-200 text-white rounded-t-lg font-bold">Visitor Counter</p>
        {visitorCount !== null && (
-         <p>This many visitors {visitorCount} have visited my site!</p>
+         <p className="text-center text-2xl font-bold pt-3 pb-2 text-blue-300"> {visitorCount}</p>
        )}
      </div>
    );
