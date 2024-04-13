@@ -5,6 +5,7 @@ import Projects from "./Projects"
 import Skills from "./Skills"
 import Education from "./Education"
 import Footer from "./Footer"
+import VisitorCounter from "./VisitorCounter"
 
 
 
@@ -25,8 +26,11 @@ export default function Content() {
         <Education />
       </div>
 
-      <div>
+      <div className="pb-5">
         <Skills />
+      </div>
+      <div className="bg-gray-100 pt-10 pb-3">
+        <VisitorCounter />
       </div>
       <div className="bg-gray-100 py-5">
         <Footer />
