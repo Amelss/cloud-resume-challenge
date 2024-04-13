@@ -12,6 +12,9 @@ import VisitorCounter from "./VisitorCounter"
 export default function Content() {
   return (
     <div>
+      <div className="bg-gray-100 pt-5 pb-10">
+        <VisitorCounter />
+      </div>
       <div className="py-10">
         <About />
       </div>
@@ -29,9 +32,7 @@ export default function Content() {
       <div className="pb-5">
         <Skills />
       </div>
-      <div className="bg-gray-100 pt-10 pb-3">
-        <VisitorCounter />
-      </div>
+
       <div className="bg-gray-100 py-5">
         <Footer />
       </div>
